@@ -3,7 +3,7 @@ result = []
 i = 0 
 while i < src.length do 
   inner_index = src[i]
-  result << " i love #{inner_index[0]} and #{inner_index[1]} on my pizza"
+  result << " I love #{inner_index[0]} and #{inner_index[1]} on my pizza"
 i += 1 
 end 
 result 
