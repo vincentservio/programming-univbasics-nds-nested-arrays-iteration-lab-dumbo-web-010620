@@ -1,29 +1,18 @@
 def join_ingredients(src)
-  join_ingredients = [
-    ["pepperoni", "green olives", "onions"],
-    ["sausage", "green peppers", "pineapple" ]
-  ]
-   result = []
+i = 0 
+while i < src.length 
 
-  i = 0
-  while i < src.length do
-    inner = src[i]
-    result << "I love #{inner[0]} and #{inner[1]} on my pizza"
-    i += 1
-  end
-
-  result
-end
- 
 
 def find_greater_pair(src)
-  array_2 = [[-1, -900], [10, 30], [0, 0], [14, 16 * -2.5], [Math.sin(1), 19]]
-  result =[]
-  i = 0
-  while i < src.length do 
-    result << (src[i][0] > src[i][1] ? src[i][0] : src[i][1])
-    i += 1
-  end
+result = []
+  i = 0 
+    while i < src.length do 
+      result << (src[i][0] > src[i][1] ? src[i][0] : src[i][1])
+  i += 1  
+end
+      
+      
+
     result
     # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
